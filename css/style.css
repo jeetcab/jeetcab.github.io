@@ -9,7 +9,7 @@ body {
 }
 
 .layout_padding {
-  padding: 90px 0;
+  padding: 0px 0;
 }
 
 .layout_padding2 {
@@ -200,12 +200,12 @@ a:focus {
 }
 
 .slider_section .box {
-  padding-left: 15%;
-  margin-bottom: 100px;
+  padding-left: 10%;
+  
 }
 
 .slider_section .box .detail-box {
-  padding-right: 4%;
+  
 }
 
 .slider_section .box .detail-box h4 {
@@ -240,6 +240,8 @@ a:focus {
   border: 1px solid #0b0b0a;
   background-color: transparent;
   color: #0b0b0a;
+  margin:5px;
+  width:300px;
 }
 
 .slider_section .box .btn-box a:hover {
