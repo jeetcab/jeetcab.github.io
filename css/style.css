@@ -205,7 +205,7 @@ a:focus {
 }
 
 .slider_section .box .detail-box {
-  padding-right: 10%;
+  padding-right: 4%;
 }
 
 .slider_section .box .detail-box h4 {
@@ -292,6 +292,7 @@ a:focus {
       -ms-flex: 1;
           flex: 1;
   min-width: 116px;
+  min-height: 60px;
   border: none;
   outline: none;
   background-color: #f7c621;
@@ -412,7 +413,7 @@ a:focus {
 }
 
 .service_section .service_container .box .detail-box {
-  margin-top: 15px;
+  margin-top: 45px;
 }
 
 .service_section .service_container .box .detail-box h5 {
@@ -946,3 +947,22 @@ a:focus {
   color: #000000;
 }
 /*# sourceMappingURL=style.css.map */
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
